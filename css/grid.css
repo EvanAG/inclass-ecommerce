@@ -5,15 +5,10 @@
 
 .unit {
 	float: left;
-	width: 33.3333%;
 	background-color: #FFF;
 }
 
-.gutter {
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+.unit-s-1 {
+	width: 100%;
 }
 
-.unit-2-3 {
-	width: 66.6666%;
-}
