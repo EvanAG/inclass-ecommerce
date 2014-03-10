@@ -1,8 +1,13 @@
 ---
-
+layout: default
+category: dinosaurs
+name: Tyrannosaurus
+time_period: Late Cretaceous
+diet: Carnivore
+image: land-dinos/hadrasaur.jpg
 ---
 
-The *Tyrannosuarus* is the most fierce dinosaur that ever existed.
+The *Tyrannosaurus* is the most **fierce** ***dinosaur*** that ever existed.
 
 The T-rex lived in the [Late Cretaceous Period](http://en.wikipedia.org/wiki/Late_Cretaceous).
 

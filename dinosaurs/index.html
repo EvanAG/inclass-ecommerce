@@ -3,5 +3,25 @@ layout: default
 title: Dinosaurs
 ---
 
-<h1>Dinosaurs</h1>
-<p> I j khkjkj vkjh rughre g regiuerhiugherg e</p>
+<div class="grid">
+	<div class="unit unit s-1 unit-m-1-2 unit-l-2-3">
+		<h1>Dinosaurs</h1>
+	</div>	
+	<div class="unit unit s-1 unit-m-1-2 unit-l-2-3">
+		<p> I j khkjkj vkjh rughre g regiuerhiugherg e</p>
+	<div>
+</div>
+
+
+<ul>
+	{% for  dino in site.pages %}	
+		{% if dino.category == 'dinosaur' %}
+			<li>
+				<a href="{{site.baseurl}}{{dino.url}}">
+					<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">	
+					{{dino.name}}
+				</a>	
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
